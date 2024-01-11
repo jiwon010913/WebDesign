@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Tektur:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap");
+
+.nav .icon {
+  width: 1.5rem;
+  margin-top: 1rem;
+  margin-right: 0.5rem;
+  margin-left: 0.7rem;
+  transform-origin: right top;
+}
+
+.nav ul {
+  list-style-type: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  display: inline-block;
+  padding: 0.25rem;
+  padding-bottom: 1rem;
+}
+
+.nav .menu a:link {
+  color: black;
+  text-decoration: none;
+}
+
+.nav .menu a:visited {
+  color: black;
+}
+
+.nav .menu a:hover {
+  color: #262c61;
+}
+
+.nav .menu a:active {
+  color: #262c61;
+}
+
+.nav .title a .titlespan {
+  font-family: "Tektur", sans-serif;
+  font-size: 1.8rem;
+}
+
+.nav .title a {
+  color: black;
+  text-decoration: none;
+}
+
+.nav .title a:active {
+  color: black;
+}
+
+.nav .title a:visited {
+  color: black;
+}
+
+#wrapper {
+  height: auto;
+  min-height: 100%;
+  padding-bottom: 9rem;
+}
+
+.footer {
+  background-color: rgb(14, 17, 28);
+  height: 9rem;
+  position: relative;
+  transform: translateY(-100%);
+}
+
+.footer div {
+  color: white;
+  font-size: 14px;
+  top: 1.5rem;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1.5rem;
+}

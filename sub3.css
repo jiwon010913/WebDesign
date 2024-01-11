@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Tektur:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap");
+
+.sub3 {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 350px;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.sub3title {
+  margin: 2rem;
+  font-weight: 800;
+}
+
+.tag {
+  font-family: "Tektur", sans-serif;
+  color: aliceblue;
+  font-size: medium;
+  font-weight: 900;
+  text-decoration: none;
+  background-color: rgb(14, 17, 28);
+  border: none;
+  border-radius: 3rem;
+  margin-top: 1rem;
+  padding: 1rem 2rem;
+  display: inline-block;
+}
+
+.tag:hover {
+  background-color: #262c61;
+  cursor: pointer;
+}
